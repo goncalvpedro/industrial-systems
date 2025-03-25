@@ -9,7 +9,7 @@ from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout,
 class InventoryApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Production and Inventory Control")
+        self.setWindowTitle("Estoque Banner")
         self.setGeometry(100, 100, 800, 600)
 
         self.db_connection = sqlite3.connect('inventory.db')
